@@ -1,0 +1,16 @@
+C:\Users\axey\Desktop\PDFMerge\me.AxeyWorks.PDFMerge\bin\Debug\me.AxeyWorks.PDFMerge.exe
+C:\Users\axey\Desktop\PDFMerge\me.AxeyWorks.PDFMerge\bin\Debug\me.AxeyWorks.PDFMerge.pdb
+C:\Users\axey\Desktop\PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.Properties.Resources.resources
+C:\Users\axey\Desktop\PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.csproj.GenerateResource.Cache
+C:\Users\axey\Desktop\PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.exe
+C:\Users\axey\Desktop\PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.pdb
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.Form1.resources
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.Properties.Resources.resources
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.csproj.GenerateResource.Cache
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\me.AxeyWorks.PDFMerge.csprojResolveAssemblyReference.cache
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\bin\Debug\AxeyWorks.PDFRotate.exe
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\bin\Debug\AxeyWorks.PDFRotate.pdb
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\AxeyWorks.PDFRotate.exe
+C:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\AxeyWorks.PDFRotate.pdb
+D:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\AxeyWorks.PDFRotate.exe
+D:\Users\joshuaa\Desktop\Simple-PDFMerge\me.AxeyWorks.PDFMerge\obj\Debug\AxeyWorks.PDFRotate.pdb
