@@ -17,7 +17,6 @@ namespace me.AxeyWorks.PDFRotate
             Application.Run(new Form1());
         }
 
-
         public static void RotatePDF90CW(Stream inputFile, string outputFile)
         {
             using (FileStream outStream = new FileStream(outputFile, FileMode.Create))
@@ -25,17 +24,22 @@ namespace me.AxeyWorks.PDFRotate
                 PdfReader reader = new PdfReader(inputFile);
                 PdfStamper stamper = new PdfStamper(reader, outStream);
 
-                PdfDictionary pageDict = reader.GetPageN(1);
-                int desiredRot = 90; // 90 degrees clockwise from what it is now
-                PdfNumber rotation = pageDict.GetAsNumber(PdfName.ROTATE);
+                int pageCount = reader.NumberOfPages;
 
-                if (rotation != null)
+                for (int n = 1; n <= pageCount; n++)
                 {
-                    desiredRot += rotation.IntValue;
-                    desiredRot %= 360; // must be 0, 90, 180, or 270
-                }
-                pageDict.Put(PdfName.ROTATE, new PdfNumber(desiredRot));
+                    PdfDictionary pageDict = reader.GetPageN(n);
+                    int desiredRot = 90; //
+                    PdfNumber rotation = pageDict.GetAsNumber(PdfName.ROTATE);
 
+                    if (rotation != null)
+                    {
+                        desiredRot += rotation.IntValue;
+                        desiredRot %= 360; // must be 0, 90, 180, or 270
+                    }
+                    pageDict.Put(PdfName.ROTATE, new PdfNumber(desiredRot));
+                }
+                
                 stamper.Close();
                 reader.Close();
                 MessageBox.Show("Rotated 90° clockwise and saved with PAVS extension!");
@@ -49,16 +53,21 @@ namespace me.AxeyWorks.PDFRotate
                 PdfReader reader = new PdfReader(inputFile);
                 PdfStamper stamper = new PdfStamper(reader, outStream);
 
-                PdfDictionary pageDict = reader.GetPageN(1);
-                int desiredRot = 270; // 90 degrees clockwise from what it is now
-                PdfNumber rotation = pageDict.GetAsNumber(PdfName.ROTATE);
+                int pageCount = reader.NumberOfPages;
 
-                if (rotation != null)
+                for (int n = 1; n <= pageCount; n++)
                 {
-                    desiredRot += rotation.IntValue;
-                    desiredRot %= 360; // must be 0, 90, 180, or 270
+                    PdfDictionary pageDict = reader.GetPageN(n);
+                    int desiredRot =270; //
+                    PdfNumber rotation = pageDict.GetAsNumber(PdfName.ROTATE);
+
+                    if (rotation != null)
+                    {
+                        desiredRot += rotation.IntValue;
+                        desiredRot %= 360; // must be 0, 90, 180, or 270
+                    }
+                    pageDict.Put(PdfName.ROTATE, new PdfNumber(desiredRot));
                 }
-                pageDict.Put(PdfName.ROTATE, new PdfNumber(desiredRot));
 
                 stamper.Close();
                 reader.Close();
@@ -73,16 +82,21 @@ namespace me.AxeyWorks.PDFRotate
                 PdfReader reader = new PdfReader(inputFile);
                 PdfStamper stamper = new PdfStamper(reader, outStream);
 
-                PdfDictionary pageDict = reader.GetPageN(1);
-                int desiredRot = 180; // 90 degrees clockwise from what it is now
-                PdfNumber rotation = pageDict.GetAsNumber(PdfName.ROTATE);
+                int pageCount = reader.NumberOfPages;
 
-                if (rotation != null)
+                for (int n = 1; n <= pageCount; n++)
                 {
-                    desiredRot += rotation.IntValue;
-                    desiredRot %= 360; // must be 0, 90, 180, or 270
+                    PdfDictionary pageDict = reader.GetPageN(n);
+                    int desiredRot = 180; //
+                    PdfNumber rotation = pageDict.GetAsNumber(PdfName.ROTATE);
+
+                    if (rotation != null)
+                    {
+                        desiredRot += rotation.IntValue;
+                        desiredRot %= 360; // must be 0, 90, 180, or 270
+                    }
+                    pageDict.Put(PdfName.ROTATE, new PdfNumber(desiredRot));
                 }
-                pageDict.Put(PdfName.ROTATE, new PdfNumber(desiredRot));
 
                 stamper.Close();
                 reader.Close();

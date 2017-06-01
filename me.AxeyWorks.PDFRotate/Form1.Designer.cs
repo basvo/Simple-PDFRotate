@@ -1,4 +1,8 @@
-﻿namespace me.AxeyWorks.PDFRotate
+﻿using System;
+using System.IO;
+using System.Windows.Forms;
+
+namespace me.AxeyWorks.PDFRotate
 {
     partial class Form1
     {
@@ -89,6 +93,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(347, 20);
             this.textBox1.TabIndex = 13;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button3
             // 
@@ -122,6 +127,7 @@
             // 
             // Form1
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(453, 158);
