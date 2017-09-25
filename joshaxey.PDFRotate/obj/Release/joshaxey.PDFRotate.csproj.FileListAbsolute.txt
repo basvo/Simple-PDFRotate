@@ -1,0 +1,9 @@
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\bin\Release\joshaxey.PDFRotate.exe
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\bin\Release\joshaxey.PDFRotate.pdb
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\obj\Release\joshaxey.PDFRotate.csprojResolveAssemblyReference.cache
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\obj\Release\joshaxey.PDFRotate.Form1.resources
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\obj\Release\joshaxey.PDFRotate.Properties.Resources.resources
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\obj\Release\joshaxey.PDFRotate.csproj.GenerateResource.Cache
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\obj\Release\joshaxey.PDFRotate.csproj.CoreCompileInputs.cache
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\obj\Release\joshaxey.PDFRotate.exe
+C:\Users\joshuaa\Documents\GitHub\Simple-PDFRotate\joshaxey.PDFRotate\obj\Release\joshaxey.PDFRotate.pdb
